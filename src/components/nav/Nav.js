@@ -12,7 +12,7 @@ const Nav = () => {
     <nav className='nav-bar'>
       <a href='#'><AiOutlineHome/> Home</a>
       <a href='#about'><AiOutlineAlignLeft/> About</a>
-      <a href='#services'><AiOutlineFundProjectionScreen/> Services</a>
+      <a href='#experience'><AiOutlineFundProjectionScreen/> Experience</a>
       <a href='#portfolio'><AiOutlineFolderOpen/> Portfolio</a>
       <a href='#testimonials'><AiOutlineTrophy/> Testimonials</a>
       <a href='#contact'><AiOutlineMail/> Contact</a>
