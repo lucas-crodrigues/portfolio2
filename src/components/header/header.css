@@ -1,0 +1,15 @@
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.header-photo {
+  background-color: var(--color-primary);
+  width: 22rem;
+  height: 22rem;
+  overflow: hidden;
+  border-radius: 11rem;
+  margin-top: 2rem;
+}
