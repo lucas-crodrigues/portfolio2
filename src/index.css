@@ -11,12 +11,13 @@
 }
 
 :root {
-  --color-bg: #1f1f38;
-  --color-bg-2: #2c2c6c;
-  --color-primary: #4db5ff;
-  --color-primary-2: rgba(77, 181, 255, 0.4);
+  --color-bg: #0f0f0f;
+  --color-bg-2: #2c2b30;
+  --color-primary: #b964ff;
+  --color-primary-2: rgba(130, 77, 255, 0.4);
   --color-white: #fff;
   --color-light: rgba(255, 255, 255, 0.6);  
+  --color-transparent: rgba(0, 0, 0, 0.6);  
 
   --transition: all 400ms ease;
 
@@ -61,7 +62,10 @@ h1 {
 }
 
 section {
-  margin-top: 8rem;
+  margin-top: 4rem;
+  height: 100vh;
+  display: flex;
+  align-items: center;
 }
 
 section > h2,
@@ -120,10 +124,6 @@ img {
 @media screen and (max-width: 1024px) {
   .container {
     width: var(--container-width-md);
-  }
-
-  section {
-    margin-top: 6rem;
   }
 }
 
