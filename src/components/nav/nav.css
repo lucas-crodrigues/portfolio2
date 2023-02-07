@@ -1,0 +1,12 @@
+.nav-bar {
+  position: fixed;
+  top: 1rem;
+  right: 2rem;
+  display: flex;
+  gap: 0.8rem;
+  background-color: var(--color-transparent);
+  padding: 1rem;
+  border-radius: 2rem;
+  z-index: 5;
+  backdrop-filter: blur(15px);
+}
