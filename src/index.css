@@ -40,6 +40,8 @@ body {
   color: var(--color-white);
   line-height: 1.7;
   background-image: url(../src/assets/bg-texture.png);
+  display: flex;
+  flex-direction: column;
 }
 
 /* ================= GENERAL STYLES ================= */
@@ -47,6 +49,9 @@ body {
 .container {
   width: var(--container-width-lg);
   margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 
 h1,
@@ -63,7 +68,7 @@ h1 {
 
 section {
   margin-top: 4rem;
-  height: 100vh;
+  min-height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -73,6 +78,7 @@ section > h2,
 section > h5 {
   text-align: center;
   color: var(--color-light);
+  margin-top: 8rem;
 }
 
 section > h2 {
@@ -125,6 +131,7 @@ img {
 @media screen and (max-width: 1024px) {
   .container {
     width: var(--container-width-md);
+    justify-content: center;
   }
 }
 
