@@ -1,0 +1,25 @@
+#contact {
+  justify-content: flex-start;
+}
+
+.contact-container {
+  justify-content: space-around;
+  gap: 1rem;
+}
+
+.contact-option {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  padding: 2rem;
+  border: 2px solid var(--color-primary-2);
+  border-radius: 1rem;
+  background-color: var(--color-transparent);
+  width: 35%;
+  min-width: 18rem;
+  transition: var(--transition);
+}
+
+.contact-option:hover {
+  background-color: var(--color-bg-2);
+}
