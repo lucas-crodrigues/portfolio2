@@ -1,0 +1,37 @@
+#contact {
+  justify-content: flex-start;
+  min-height: calc(100vh - 3rem);
+}
+
+.contact-container {
+  justify-content: space-around;
+  gap: 1rem;
+}
+
+.contact-option {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  padding: 2rem;
+  border: 2px solid var(--color-primary-2);
+  border-radius: 1rem;
+  background-color: var(--color-transparent);
+  width: 35%;
+  min-width: 18rem;
+  transition: var(--transition);
+}
+
+.contact-option:hover {
+  background-color: var(--color-bg-2);
+}
+
+.contact-option h2 {
+  align-self: center;
+  font-size: 2rem;
+}
+
+@media screen and (max-width: 600px) {
+  #contact {
+    min-height: 100vh;
+  }
+}

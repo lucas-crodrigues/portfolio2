@@ -1,0 +1,25 @@
+.about-container {
+  justify-content: space-between;
+  gap: 0.8rem;
+  margin-top: 3rem;
+  align-items: center;
+}
+
+.about-picture {
+  width: 20rem;
+  overflow: hidden;
+  border-radius: 2rem;
+  border: 0.5rem solid var(--color-primary);
+}
+
+.about-text {
+  width: calc(100% - 22rem);
+  min-width: 25rem;
+}
+
+/* ================= MEDIA QUERIES (SMALL) ================= */
+@media screen and (max-width: 680px) {
+  .about-text {
+    min-width: 16rem;
+  }
+}
