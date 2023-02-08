@@ -140,7 +140,12 @@ img {
     width: var(--container-width-sm);
   }
 
+  section {
+    margin-top: 0;
+  }
+
   section > h2 {
+    margin-top: 1rem;
     margin-bottom: 2rem;
   }
 }
