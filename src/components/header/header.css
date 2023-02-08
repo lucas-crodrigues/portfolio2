@@ -3,6 +3,12 @@
   align-items: center;
 }
 
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .header-photo {
   background-color: var(--color-primary);
   width: 22rem;
@@ -10,4 +16,22 @@
   overflow: hidden;
   border-radius: 11rem;
   margin-top: 2rem;
+}
+
+.header-socials {
+  display: flex;
+  gap: 0.8rem;
+}
+
+.header-socials a {
+  font-size: 2rem;
+  color: var(--color-primary-2);
+}
+
+/* ================= MEDIA QUERIES (SMALL) ================= */
+@media screen and (max-width: 374px) {
+  .header-photo {
+    width: 19rem;
+    height: 19rem;
+  }
 }
