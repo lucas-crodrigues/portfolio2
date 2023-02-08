@@ -16,7 +16,7 @@ const Contact = () => {
         <article className='contact-option'>
           <h2><AiOutlineWhatsApp /></h2>
           <h4>WhatsApp</h4>
-          <h5>Personal Phone Number</h5>
+          <h5>+55 47 99927 6195</h5>
           <a href='https://wa.me/+5547999276195' target='_blank' rel="noreferrer">Message Me</a>
         </article>
       </div>
