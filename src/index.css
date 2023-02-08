@@ -12,7 +12,7 @@
 
 :root {
   --color-bg: #0f0f0f;
-  --color-bg-2: #2c2b30;
+  --color-bg-2: #13101c;
   --color-primary: #b964ff;
   --color-primary-2: rgba(130, 77, 255, 0.4);
   --color-white: #fff;
@@ -77,7 +77,7 @@ section > h2,
 section > h5 {
   text-align: center;
   color: var(--color-light);
-  margin-top: 8rem;
+  margin-top: 6rem;
 }
 
 section > h2 {
@@ -127,7 +127,7 @@ img {
 }
 
 /* ================= MEDIA QUERIES (MEDIUM) ================= */
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1020px) {
   .container {
     width: var(--container-width-md);
     justify-content: center;
