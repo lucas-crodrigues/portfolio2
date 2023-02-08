@@ -1,3 +1,7 @@
+#experience {
+  justify-content: flex-start;
+}
+
 .experience-container {
   gap: 0.8rem;
   justify-content: space-between;
