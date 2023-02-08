@@ -2,14 +2,10 @@
   justify-content: center;
 }
 
-.portfolio-container h2 {
-  margin: 5rem;
-}
-
 .projects {
   display: flex;
   flex-flow: row wrap;
-  justify-content: space-between;
+  justify-content: space-around;
   gap: 3rem 1rem;
 }
 
@@ -23,11 +19,16 @@
   border-radius: 0.5rem;
 }
 
+.project h4 {
+  font-size: 1.2rem;
+}
+
 .project-actions {
   width: 100%;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  gap: 0.8rem;
 }
 
 .project-image img {
@@ -51,9 +52,13 @@
   }  
 }
 
-/* ================= MEDIA QUERIES (MEDIUM) ================= */
+/* ================= MEDIA QUERIES (SMALL) ================= */
 @media screen and (max-width: 680px) {
   .project-actions {
     justify-content: center;
   }
+
+  .project {
+    width: 80%;
+  }  
 }
