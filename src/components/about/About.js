@@ -1,6 +1,6 @@
 import React from 'react'
 import './about.css'
-import About_me from './about_me'
+import AboutMe from './about_me'
 import lucas_about from '../../assets/lucas_about.jpg'
 
 const About = () => {
@@ -8,9 +8,9 @@ const About = () => {
     <section id='about'>
       <div className='container about-container'>
         <div className='about-picture'>
-          <img src={lucas_about} alt='Another picture of me' />
+          <img src={lucas_about} alt='Me' />
         </div>
-        <About_me />
+        <AboutMe />
       </div>
     </section>
   )

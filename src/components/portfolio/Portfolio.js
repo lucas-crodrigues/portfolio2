@@ -16,7 +16,7 @@ const Portfolio = () => {
         <div className='projects'>
           <article className='project'>
             <div className='project-image'>
-              <img src={P1} />
+              <img src={P1} alt='Project'/>
             </div>
             <h4>Bike Rentals</h4>
             <div className='project-actions'>
@@ -26,7 +26,7 @@ const Portfolio = () => {
           </article>
           <article className='project'>
             <div className='project-image'>
-              <img src={P2} />
+              <img src={P2} alt='Project'/>
             </div>
             <h4>Free Games Database</h4>
             <div className='project-actions'>
@@ -36,7 +36,7 @@ const Portfolio = () => {
           </article>
           <article className='project'>
             <div className='project-image'>
-              <img src={P3} />
+              <img src={P3} alt='Project'/>
             </div>
             <h4>Expenser App</h4>
             <div className='project-actions'>
@@ -46,7 +46,7 @@ const Portfolio = () => {
           </article>
           <article className='project'>
             <div className='project-image'>
-              <img src={P4} />
+              <img src={P4} alt='Project'/>
             </div>
             <h4>Magic Cards Collection</h4>
             <div className='project-actions'>
@@ -56,7 +56,7 @@ const Portfolio = () => {
           </article>
           <article className='project'>
             <div className='project-image'>
-              <img src={P5} />
+              <img src={P5} alt='Project'/>
             </div>
             <h4>Bookstore</h4>
             <div className='project-actions'>
@@ -66,7 +66,7 @@ const Portfolio = () => {
           </article>
           <article className='project'>
             <div className='project-image'>
-              <img src={P6} />
+              <img src={P6} alt='Project'/>
             </div>
             <h4>To-Do List</h4>
             <div className='project-actions'>

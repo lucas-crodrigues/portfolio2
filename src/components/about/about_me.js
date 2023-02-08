@@ -1,6 +1,6 @@
 import React from 'react'
 
-const about_me = () => {
+const AboutMe = () => {
   return (
     <>
       <p className='about-text'>
@@ -21,4 +21,4 @@ const about_me = () => {
   )
 }
 
-export default about_me
+export default AboutMe

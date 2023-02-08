@@ -17,7 +17,7 @@ const Header = () => {
           </div>
           <div className='header'>
             <div className='header-photo'>
-              <img src={me} alt='Picture of myself'/>
+              <img src={me} alt='Me'/>
             </div>
             <div className='header-socials'>
               <a href='https://github.com/lucas-crodrigues' target='_blank' rel="noreferrer"><AiOutlineGithub /></a>
