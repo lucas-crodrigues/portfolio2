@@ -1,5 +1,6 @@
 #contact {
   justify-content: flex-start;
+  min-height: calc(100vh - 3rem);
 }
 
 .contact-container {
@@ -22,4 +23,15 @@
 
 .contact-option:hover {
   background-color: var(--color-bg-2);
+}
+
+.contact-option h2 {
+  align-self: center;
+  font-size: 2rem;
+}
+
+@media screen and (max-width: 600px) {
+  #contact {
+    min-height: 100vh;
+  }
 }
