@@ -20,7 +20,8 @@
 /* ================= MEDIA QUERIES (SMALL) ================= */
 @media screen and (max-width: 600px) {
   .nav-bar {
-    top: 0;
+    top: calc(100vh - 3rem);
+    bottom: 0;
     right: 0;
     left: 0;
     border-radius: 0;
