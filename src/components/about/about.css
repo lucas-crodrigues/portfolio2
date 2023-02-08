@@ -16,3 +16,10 @@
   width: calc(100% - 22rem);
   min-width: 25rem;
 }
+
+/* ================= MEDIA QUERIES (SMALL) ================= */
+@media screen and (max-width: 680px) {
+  .about-text {
+    min-width: 16rem;
+  }
+}
