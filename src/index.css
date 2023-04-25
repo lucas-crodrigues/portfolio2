@@ -126,6 +126,10 @@ img {
   object-fit: cover;
 }
 
+#loom-companion-mv3 {
+  display: none;
+}
+
 /* ================= MEDIA QUERIES (MEDIUM) ================= */
 @media screen and (max-width: 1020px) {
   .container {
